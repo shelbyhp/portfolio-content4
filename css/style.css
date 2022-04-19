@@ -1,0 +1,152 @@
+@media screen and (min-width: 480px) {
+    .ufo {width: 40%}
+    .group1 {
+      display: grid;
+    }
+
+    .text{
+      font-size: 18px;
+    }
+  }
+
+@keyframes flying{
+        0%   {left:0px; top:0px;}
+        25%  {left:200px; top:0px;}
+        50%  {left:400px; top:0px;}
+        75%  {left:600px; top:0px;}
+        100% {left:800px; top:0px;}
+}
+
+.ufo{
+    width: 200px;
+  height: 200px;
+  position: relative;
+  animation-name: flying;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+}
+
+.nav{
+color: white;
+}
+
+.active:hover{
+    background-color: pink;
+    }
+
+.nav a:hover, a:focus{
+    color: #50C7C7;
+    text-decoration: underline;
+    -webkit-text-decoration-style: dotted;
+            text-decoration-style: dotted;
+  }
+
+
+.janelle{
+    margin: 100px;
+    padding: 10px;
+    width: 200px;
+    border: 3px solid #8f00ff
+}
+
+.janelle:hover{
+    background-color: lightblue;
+}
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+.art{
+    margin: 100px;
+    padding: 10px;
+    width: 200px;
+    border: 3px solid #8f00ff
+}
+body{
+    background-color: lavender;
+    background-image: url("../images/sunset.jpeg");
+    padding: 30px;
+}
+
+.homebody p{
+    background-color: lightyellow;
+    margin: 50px;
+}
+
+.group1{
+    margin: 20px;
+}
+.group1:nth-child(2n+0){
+    background: navy
+}
+
+.group1 img{
+    margin: 100px;
+    padding: 10px;
+    width: 200px;
+    border: 3px solid #8f00ff
+}
+
+.group1 img:hover{
+    background-color: lightblue;
+}
+
+.group2 img{
+    margin: 100px;
+    padding: 10px;
+    width: 200px;
+    border: 3px solid #8f00ff
+}
+
+.group2 img:hover{
+    background-color: lightblue;
+}
+
+.artpics{
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.artbody p{
+    background-color: lightyellow;
+    margin: 50px;
+}
+
+.litbody1 p{
+    background-color: lightyellow;
+    margin: 50px;
+}
+.litbody2 p{
+    background-color: lightyellow;
+    margin: 50px;
+}
+
+.hci img{
+    margin: 100px;
+    padding: 10px;
+    width: 200px;
+    border: 3px solid #8f00ff
+
+}
+
+.hcibody p{
+    background-color: lightyellow;
+    margin: 50px;
+}
+footer {
+    color: white;
+}
+
+.hci img:hover{
+    background-color: lightblue;
+}
+
